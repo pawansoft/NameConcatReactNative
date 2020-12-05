@@ -1,13 +1,7 @@
 import React, {Component} from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
   View,
-  Text,
-  StatusBar,
 } from 'react-native';
-import Form from './src/component/Form';
 import Welcome from './src/component/Welcome';
 
 export default class App extends Component {
@@ -20,7 +14,3 @@ export default class App extends Component {
   
   }
   }
-
-const styles = StyleSheet.create({
-  
-});
